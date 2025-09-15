@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(164, 184, 177); /*colorir o fundo*/
+}
+
+
+h1{
+    color: aqua; /*propriedade para colorir o texto*/
+}
+
+.exemplo{
+    height: 300px;
+    background-image: url("../img/gato.jpg"); /*colocar uma imagem de fundo*/
+    background-size: cover; /*para adaptar o tamanho da imagem de fundo*/
+    /*background-repeat: repeat-x; repete para o lado
+    background-repeat: repeat-y; repete bara baixo*/
+    /*background-repeat: no-repeat; para nao repetir a imagme*/
+
+    /*background-position: center; indica  a posicao da imagem*/
+  
+}
+
+/*trabalhando com bordas*/
+
+
+

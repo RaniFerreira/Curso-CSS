@@ -1,0 +1,23 @@
+boby{
+    background-color: antiquewhite;
+}
+p{
+    color: blueviolet;
+}
+
+.center{
+    text-align: center;
+}
+
+.vermelho{
+    color: red;
+
+}
+.fonte-30{
+    font-size: 30px;
+}
+
+#teste{
+    color: blue;
+    background-color: yellow;
+}
