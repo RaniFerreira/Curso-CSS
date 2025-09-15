@@ -2,11 +2,6 @@ body{
     background-color: rgb(164, 184, 177); /*colorir o fundo*/
 }
 
-
-h1{
-    color: aqua; /*propriedade para colorir o texto*/
-}
-
 .exemplo{
     height: 300px;
     background-image: url("../img/gato.jpg"); /*colocar uma imagem de fundo*/
@@ -21,5 +16,73 @@ h1{
 
 /*trabalhando com bordas*/
 
+h1{
+    color: aqua; /*propriedade para colorir o texto*/
+    border: 1px solid black;
+}
+.solid{
+    border-top: 10px solid pink;
+    border-bottom:10px solid green;
+    border-left: 10px solid purple;
+    border-right: 10px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding: 50px;
+}
+.dotted{
+    border: 10px dotted purple;
+    margin-top: 50px;
+    
+}
+.dashed{ 
+    border: 10px dashed purple;
+}
 
+.double{
+    border: 10px double purple;
+}
+.groove{
+    border: 10px groove purple;
+    border-radius: 15px;
+    border-left:  10px groove rgb(15, 15, 197);;
+    margin: 50px /*topo*/ 80px/*direita*/ 150px/*embaixo*/ 60px/*esquerda*/;
+}
+.ridge{
+    border: 10px ridge purple;
+}
+.inset{
+    border: 10px inset purple;
+}
+.outset{
+    border: 10px outset purple;
+}
 
+.botao{
+    background-color: orange;
+    margin-left: 150px;
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: greenyellow;
+}
+
+.teste2{
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    
+}
+.teste2 p{
+    background-color: rgb(209, 209, 28);
+    float: inline-start;
+    margin-top: 45%;
+    margin-left: 30px;
+}
