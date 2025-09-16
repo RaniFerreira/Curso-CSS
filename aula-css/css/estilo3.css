@@ -1,0 +1,93 @@
+a.botao1{
+    background-color: aqua;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+a.botao1:hover{/*hover como o botão irá se comportar ao passar o mouse em cima*/
+    background-color: rgb(6, 58, 58);
+    color: aliceblue;
+    padding: 12px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+a.botao2{
+    text-decoration: none;
+    border: 5px solid blue;
+    padding: 10px;
+    color: yellowgreen;   
+
+}
+a.botao2:hover{
+    text-decoration: underline;
+    background-color: aqua;
+    padding: 5px;
+    color:aliceblue 
+
+}
+
+a.botao3{
+    color: black;
+    text-decoration: none;
+}
+a.botao3:hover{
+    border-bottom: 5px dashed red;
+    color: blueviolet;
+
+}
+
+a.botao4{
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+a.botao4:hover{
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a.botao5{
+    cursor: help;
+}
+h1,p{
+    border: 1px solid blue ;
+}
+p:hover{
+    display: none;
+}
+
+h2{
+    border: 2px solid red;
+}
+
+li{
+    display: inline-block;
+    border: 1px solid orange;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+div{
+    display: inline-block;
+    height: 200px;
+    width: 33%;
+}
+
+
