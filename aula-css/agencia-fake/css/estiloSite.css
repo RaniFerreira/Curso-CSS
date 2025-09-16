@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lumanosimo&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    flex: 20%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+.logo h1{
+    font-family: 'lumanosimo' ;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+}
+.menu a{
+    color: #180F4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: #FF2978;
+    border-top: 4px solid #180F4A;
+}
+#botao{
+    background: #180F4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 15%;
+
+}
+
+#botao:hover{
+    border: none;
+    color: #FF2978;
+}
+
+.header{
+    background: gray;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+}
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+
+}
