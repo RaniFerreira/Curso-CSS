@@ -86,3 +86,23 @@ h1{
     margin-top: 45%;
     margin-left: 30px;
 }
+
+p{
+    color: aqua;
+    text-align: center;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-transform:uppercase;
+    letter-spacing: 5px;/*espaçamento entre as letras*/
+    line-height: 1.8;
+    word-spacing: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    font-weight: bolder;
+    
+}
+a{
+    text-decoration: none;
+    text-decoration: line-through;
+    text-indent: 500px;
+}
